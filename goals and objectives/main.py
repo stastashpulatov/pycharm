@@ -66,3 +66,60 @@ class Pet:
 
 pet = Pet(name="Кузя")
 print(pet.__class__ is Pet)
+
+# Ещё пример наследования, чуть более абстрактный - класс-роль "Может летать"
+class CanFly:
+
+    def __init__(self):
+        self.altitude = 0 # метров
+        self.velocity = 0 # км/ч
+
+    def take_off(self):
+        pass
+
+    def fly(self):
+        pass
+
+    def land_on(self):
+        self.altitude = 0
+        self.velocity = 0
+
+class Butterfly(CanFly):
+
+    def take_off(self):
+        self.altitude = 1
+
+    def fly(self):
+        self.velocity = 0.1
+
+class Aircraft(CanFly):
+
+    def take_off(self):
+        self.velocity = 300
+        self.altitude = 1000
+
+    def fly(self):
+        self.velocity = 800
+
+class Missile(CanFly):
+
+    def take_off(self):
+        self.velocity = 1000
+        self.altitude = 10000
+
+    def land_on(self):
+        self.altitude = 0
+        self.destroy_enemy_base()
+
+    def destroy_enemy_base(self):
+        print('БА-БАХ!')
+
+butterfly = Butterfly()
+butterfly.take_off()
+butterfly.fly()
+butterfly.land_on()
+
+missile = Missile()
+missile.take_off()
+missile.fly()
+missile.land_on()
