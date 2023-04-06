@@ -58,3 +58,41 @@ print(type(bb))
 print(bb[0])
 print(bb.count(0xd0))
 print(b'he' + b'llo')
+#  полный список операций - https://goo.gl/7Cznir
+# bytes - неизменяемые
+# bb[0] = 110
+
+# На самом деле это UTF-8 представление русской буквы. Какой? давайте разберем
+# (на основе описания формата - https://goo.gl/Um4xUz)
+bb = b'\xd1\x84'
+print(bin(0xd1))
+print(bin(0x84))
+# 0b11010001
+# 0b10000100
+# код символа в юникоде занимает 2 байт, значит в превом байте будет 110 сначала, а во втором 10
+# значащие биты 10001 и 000100
+code = 0b10001000100
+print(code)
+print(hex(code))
+# а это код русской буквы ф в юникоде
+print(chr(code))
+# элемнтарно, Ватсон!
+
+# при выводе на терминал есть особенности
+# латинские сиволы ASCII при выводе на термнал отображаются
+# как символы, а не коды
+bb = b'\x68\xd1\x84'
+print(bb)
+print(bb.hex())
+# (видимо для удобства англоговорящих программистов)
+
+# так же есть изменяемый (mutable) аналог bytes - это bytearray
+ba = bytearray(b'hello')
+ba[0] = 32 # код пробела
+print(ba)
+# создаваться bytearray может только через конструктор
+print(bytearray())
+print(bytearray(16))
+print(bytearray(range(16)))
+print(vytearray(b'hello'))
+print(bytearray('привет', encoding='utf-8'))
