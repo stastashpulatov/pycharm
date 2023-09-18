@@ -11,7 +11,7 @@ def get_mean_size(ls_output: str) -> float:
 
 
 if __name__ == '__main__':
-    data: str = sys.stdin.read()[1:]
+    data: list = sys.stdin.readlines()[1:]
     if not data:
         print('Данная директория пуста или к ней нет доступа.')
     else:
