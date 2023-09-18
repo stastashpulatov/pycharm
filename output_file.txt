@@ -1,0 +1,204 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.5  0.3 102268 13104 ?        Ss   12:28   0:02 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    12:28   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   12:28   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   12:28   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   12:28   0:00 [slub_flushwq]
+root           6  0.0  0.0      0     0 ?        I<   12:28   0:00 [netns]
+root           7  0.0  0.0      0     0 ?        I    12:28   0:00 [kworker/0:0-events]
+root           8  0.0  0.0      0     0 ?        I<   12:28   0:00 [kworker/0:0H-events_highpri]
+root           9  0.4  0.0      0     0 ?        I    12:28   0:02 [kworker/u4:0-events_unbound]
+root          10  0.0  0.0      0     0 ?        I<   12:28   0:00 [mm_percpu_wq]
+root          11  0.0  0.0      0     0 ?        I    12:28   0:00 [rcu_tasks_kthread]
+root          12  0.0  0.0      0     0 ?        I    12:28   0:00 [rcu_tasks_rude_kthread]
+root          13  0.0  0.0      0     0 ?        I    12:28   0:00 [rcu_tasks_trace_kthread]
+root          14  0.0  0.0      0     0 ?        S    12:28   0:00 [ksoftirqd/0]
+root          15  0.1  0.0      0     0 ?        I    12:28   0:00 [rcu_preempt]
+root          16  0.0  0.0      0     0 ?        S    12:28   0:00 [migration/0]
+root          17  0.0  0.0      0     0 ?        S    12:28   0:00 [idle_inject/0]
+root          19  0.0  0.0      0     0 ?        S    12:28   0:00 [cpuhp/0]
+root          20  0.0  0.0      0     0 ?        S    12:28   0:00 [cpuhp/1]
+root          21  0.0  0.0      0     0 ?        S    12:28   0:00 [idle_inject/1]
+root          22  0.0  0.0      0     0 ?        S    12:28   0:00 [migration/1]
+root          23  0.0  0.0      0     0 ?        S    12:28   0:00 [ksoftirqd/1]
+root          25  0.0  0.0      0     0 ?        I<   12:28   0:00 [kworker/1:0H-kblockd]
+root          26  0.0  0.0      0     0 ?        S    12:28   0:00 [kdevtmpfs]
+root          27  0.0  0.0      0     0 ?        I<   12:28   0:00 [inet_frag_wq]
+root          28  0.0  0.0      0     0 ?        S    12:28   0:00 [kauditd]
+root          29  0.0  0.0      0     0 ?        S    12:28   0:00 [khungtaskd]
+root          31  0.0  0.0      0     0 ?        S    12:28   0:00 [oom_reaper]
+root          32  0.0  0.0      0     0 ?        I    12:28   0:00 [kworker/u4:2-events_unbound]
+root          33  0.0  0.0      0     0 ?        I<   12:28   0:00 [writeback]
+root          34  0.0  0.0      0     0 ?        S    12:28   0:00 [kcompactd0]
+root          35  0.0  0.0      0     0 ?        SN   12:28   0:00 [ksmd]
+root          36  0.0  0.0      0     0 ?        SN   12:28   0:00 [khugepaged]
+root          37  0.0  0.0      0     0 ?        I<   12:28   0:00 [kintegrityd]
+root          38  0.0  0.0      0     0 ?        I<   12:28   0:00 [kblockd]
+root          39  0.0  0.0      0     0 ?        I<   12:28   0:00 [blkcg_punt_bio]
+root          40  0.0  0.0      0     0 ?        I<   12:28   0:00 [tpm_dev_wq]
+root          41  0.0  0.0      0     0 ?        I<   12:28   0:00 [ata_sff]
+root          42  0.0  0.0      0     0 ?        I<   12:28   0:00 [md]
+root          43  0.0  0.0      0     0 ?        I<   12:28   0:00 [edac-poller]
+root          44  0.0  0.0      0     0 ?        I<   12:28   0:00 [devfreq_wq]
+root          45  0.0  0.0      0     0 ?        S    12:28   0:00 [watchdogd]
+root          46  0.0  0.0      0     0 ?        I    12:28   0:00 [kworker/1:1-events]
+root          47  0.0  0.0      0     0 ?        I<   12:28   0:00 [kworker/0:1H-kblockd]
+root          48  0.0  0.0      0     0 ?        S    12:28   0:00 [kswapd0]
+root          49  0.0  0.0      0     0 ?        S    12:28   0:00 [ecryptfs-kthread]
+root          50  0.0  0.0      0     0 ?        I<   12:28   0:00 [kthrotld]
+root          51  0.0  0.0      0     0 ?        I<   12:28   0:00 [acpi_thermal_pm]
+root          52  0.0  0.0      0     0 ?        S    12:28   0:00 [xenbus_probe]
+root          53  0.0  0.0      0     0 ?        S    12:28   0:00 [scsi_eh_0]
+root          54  0.0  0.0      0     0 ?        I<   12:28   0:00 [scsi_tmf_0]
+root          55  0.0  0.0      0     0 ?        S    12:28   0:00 [scsi_eh_1]
+root          56  0.0  0.0      0     0 ?        I<   12:28   0:00 [scsi_tmf_1]
+root          57  0.1  0.0      0     0 ?        I    12:28   0:00 [kworker/u4:3-events_unbound]
+root          59  0.1  0.0      0     0 ?        I    12:28   0:00 [kworker/u4:5-events_unbound]
+root          60  0.0  0.0      0     0 ?        I<   12:28   0:00 [mld]
+root          61  0.0  0.0      0     0 ?        I<   12:28   0:00 [ipv6_addrconf]
+root          70  0.0  0.0      0     0 ?        I<   12:28   0:00 [kstrp]
+root          72  0.0  0.0      0     0 ?        I<   12:28   0:00 [zswap-shrink]
+root          73  0.0  0.0      0     0 ?        I<   12:28   0:00 [kworker/u5:0]
+root          77  0.0  0.0      0     0 ?        I<   12:28   0:00 [charger_manager]
+root         121  0.0  0.0      0     0 ?        I    12:28   0:00 [kworker/0:2-events]
+root         123  0.0  0.0      0     0 ?        S    12:28   0:00 [scsi_eh_2]
+root         124  0.0  0.0      0     0 ?        I<   12:28   0:00 [scsi_tmf_2]
+root         155  0.0  0.0      0     0 ?        S    12:29   0:00 [jbd2/sda3-8]
+root         156  0.0  0.0      0     0 ?        I<   12:29   0:00 [ext4-rsv-conver]
+root         195  0.1  0.4  48756 19332 ?        S<s  12:29   0:00 /lib/systemd/systemd-journald
+root         222  0.0  0.1  26740  6912 ?        Ss   12:29   0:00 /lib/systemd/systemd-udevd
+root         225  0.0  0.0      0     0 ?        S    12:29   0:00 [irq/18-vmwgfx]
+root         283  0.0  0.0      0     0 ?        I<   12:29   0:00 [cryptd]
+root         292  0.0  0.0      0     0 ?        I<   12:29   0:00 [kworker/1:2H-kblockd]
+systemd+     439  0.2  0.1  14824  6784 ?        Ss   12:29   0:01 /lib/systemd/systemd-oomd
+systemd+     446  0.2  0.3  27112 15332 ?        Ss   12:29   0:01 /lib/systemd/systemd-resolved
+systemd+     503  0.0  0.1  89376  7424 ?        Ssl  12:29   0:00 /lib/systemd/systemd-timesyncd
+root         569  0.0  0.1 239980  7724 ?        Ssl  12:29   0:00 /usr/libexec/accounts-daemon
+root         570  0.0  0.0   2812  1920 ?        Ss   12:29   0:00 /usr/sbin/acpid
+avahi        572  0.0  0.1   7624  4096 ?        Ss   12:29   0:00 avahi-daemon: running [coolbola-VirtualBox.local]
+root         573  0.0  0.0   9496  2944 ?        Ss   12:29   0:00 /usr/sbin/cron -f -P
+message+     575  0.3  0.1  11024  6528 ?        Ss   12:29   0:01 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         577  0.1  0.4 261116 18780 ?        Ssl  12:29   0:00 /usr/sbin/NetworkManager --no-daemon
+root         583  0.0  0.0  82696  3840 ?        Ssl  12:29   0:00 /usr/sbin/irqbalance --foreground
+root         586  0.0  0.5  41060 21248 ?        Ss   12:29   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         588  0.4  0.2 236936 10740 ?        Ssl  12:29   0:02 /usr/libexec/polkitd --no-debug
+root         590  0.0  0.1 240100  7424 ?        Ssl  12:29   0:00 /usr/libexec/power-profiles-daemon
+syslog       591  0.0  0.1 222400  6016 ?        Ssl  12:29   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         599  1.0  0.8 1319636 35240 ?       Ssl  12:29   0:05 /usr/lib/snapd/snapd
+root         610  0.0  0.1 236380  6912 ?        Ssl  12:29   0:00 /usr/libexec/switcheroo-control
+root         612  0.0  0.2  23648  8124 ?        Ss   12:29   0:00 /lib/systemd/systemd-logind
+root         614  0.0  0.3 393188 13404 ?        Ssl  12:29   0:00 /usr/libexec/udisks2/udisksd
+root         627  0.0  0.1  16492  6528 ?        Ss   12:29   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root         648  0.0  0.0      0     0 ?        I    12:29   0:00 [kworker/1:3-cgroup_destroy]
+avahi        652  0.0  0.0   7440  1292 ?        S    12:29   0:00 avahi-daemon: chroot helper
+root         680  0.0  0.3 244224 12368 ?        Ssl  12:29   0:00 /usr/sbin/ModemManager
+root         688  0.0  0.3  73012 13952 ?        Ss   12:29   0:00 /usr/sbin/cupsd -l
+root         715  0.0  0.0 296936  3980 ?        Sl   12:29   0:00 /usr/sbin/VBoxService
+lp           724  0.0  0.1  16284  6656 ?        S    12:29   0:00 /usr/lib/cups/notifier/dbus dbus://
+root         732  0.0  0.5 118144 23680 ?        Ssl  12:29   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         736  0.0  0.2 241340  9216 ?        Ssl  12:29   0:00 /usr/sbin/gdm3
+root         772  0.0  0.2 172620 11520 ?        Ssl  12:29   0:00 /usr/sbin/cups-browsed
+kernoops     783  0.0  0.0  13084  2196 ?        Ss   12:29   0:00 /usr/sbin/kerneloops --test
+kernoops     791  0.0  0.0  13084  2208 ?        Ss   12:29   0:00 /usr/sbin/kerneloops
+rtkit        829  0.0  0.0 154000  3200 ?        SNsl 12:29   0:00 /usr/libexec/rtkit-daemon
+root        1046  0.0  0.2 242344  8960 ?        Ssl  12:29   0:00 /usr/libexec/upowerd
+root        1062  0.0  0.5 298204 20472 ?        Ssl  12:29   0:00 /usr/libexec/packagekitd
+colord      1221  0.0  0.3 245328 13000 ?        Ssl  12:29   0:00 /usr/libexec/colord
+root        1282  0.0  0.2 170736 10780 ?        Sl   12:29   0:00 gdm-session-worker [pam/gdm-password]
+coolbola    1291  0.2  0.2  17952 10624 ?        Ss   12:29   0:01 /lib/systemd/systemd --user
+coolbola    1292  0.0  0.1 104388  5808 ?        S    12:29   0:00 (sd-pam)
+coolbola    1298  0.0  0.1  39576  6528 ?        S<sl 12:29   0:00 /usr/bin/pipewire
+coolbola    1299  0.0  0.1  23460  6528 ?        Ssl  12:29   0:00 /usr/bin/pipewire-media-session
+coolbola    1300  0.1  0.6 1946776 27040 ?       S<sl 12:29   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+coolbola    1301  0.1  0.3  76144 14080 ?        Ss   12:29   0:00 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+coolbola    1312  0.1  0.1   9860  5888 ?        Ss   12:29   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+coolbola    1315  0.0  0.1 240896  7708 ?        Sl   12:29   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+coolbola    1319  0.0  0.1 240648  7936 ?        Ssl  12:29   0:00 /usr/libexec/gvfsd
+coolbola    1324  0.0  0.1 162388  6144 tty2     Ssl+ 12:29   0:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+coolbola    1326  0.0  0.1 380888  7040 ?        Sl   12:29   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+coolbola    1334  0.0  0.3 223040 15744 tty2     Sl+  12:29   0:00 /usr/libexec/gnome-session-binary --session=ubuntu
+coolbola    1335  0.0  0.1 536904  7680 ?        Ssl  12:29   0:00 /usr/libexec/xdg-document-portal
+coolbola    1345  0.0  0.1 236144  6272 ?        Ssl  12:29   0:00 /usr/libexec/xdg-permission-store
+root        1355  0.0  0.0   2792  1792 ?        Ss   12:29   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+coolbola    1398  0.2  0.6 633464 27544 ?        SNsl 12:29   0:01 /usr/libexec/tracker-miner-fs-3
+coolbola    1413  0.0  0.1  91908  5504 ?        Ssl  12:29   0:00 /usr/libexec/gnome-session-ctl --monitor
+coolbola    1424  0.0  0.4 593004 17792 ?        Ssl  12:29   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+coolbola    1440  0.0  0.1 309612  7808 ?        Sl   12:29   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+coolbola    1448 15.1  8.9 4537428 357880 ?      Ssl  12:29   1:12 /usr/bin/gnome-shell
+coolbola    1451  0.0  0.1   8560  4480 ?        S    12:29   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+coolbola    1461  0.0  0.2 316048 10496 ?        Ssl  12:29   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+coolbola    1478  0.0  0.2 315200  8192 ?        Ssl  12:29   0:00 /usr/libexec/gvfs-afc-volume-monitor
+coolbola    1488  0.0  0.1 237416  7168 ?        Ssl  12:29   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+coolbola    1492  0.0  0.1 236632  6656 ?        Ssl  12:29   0:00 /usr/libexec/gvfs-goa-volume-monitor
+coolbola    1497  0.0  1.0 574184 40832 ?        Sl   12:29   0:00 /usr/libexec/goa-daemon
+coolbola    1508  0.0  0.3 412132 15232 ?        Sl   12:29   0:00 /usr/libexec/goa-identity-service
+coolbola    1511  0.0  0.1 236460  6784 ?        Ssl  12:29   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+coolbola    1550  0.0  0.5 306024 22724 ?        Sl   12:29   0:00 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+coolbola    1554  0.0  0.3 623808 14080 ?        Ssl  12:29   0:00 /usr/libexec/xdg-desktop-portal
+coolbola    1558  0.1  0.7 375584 28392 ?        Ssl  12:29   0:00 /usr/libexec/xdg-desktop-portal-gnome
+coolbola    1566  0.0  0.4 582784 18432 ?        Sl   12:29   0:00 /usr/libexec/gnome-shell-calendar-server
+coolbola    1572  0.0  0.6 392220 25856 ?        Ssl  12:29   0:00 /usr/libexec/evolution-source-registry
+coolbola    1580  0.0  0.7 840492 31360 ?        Ssl  12:29   0:00 /usr/libexec/evolution-calendar-factory
+coolbola    1589  0.0  0.1 156964  5760 ?        Ssl  12:29   0:00 /usr/libexec/dconf-service
+coolbola    1590  0.0  0.1 163060  6656 ?        Ssl  12:29   0:00 /usr/libexec/gvfsd-metadata
+coolbola    1598  0.0  0.7 745960 28928 ?        Ssl  12:29   0:00 /usr/libexec/evolution-addressbook-factory
+coolbola    1613  0.0  0.2 314860  9216 ?        Sl   12:29   0:00 /usr/libexec/gvfsd-trash --spawner :1.2 /org/gtk/gvfs/exec_spaw/0
+coolbola    1628  0.0  0.1 162680  7296 ?        Sl   12:29   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+coolbola    1630  0.0  0.6 2599420 27660 ?       Sl   12:29   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+coolbola    1643  0.0  0.0   2888  1536 ?        Ss   12:29   0:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+coolbola    1644  0.0  0.1 310424  6912 ?        Ssl  12:29   0:00 /usr/libexec/gsd-a11y-settings
+coolbola    1646  0.2  0.2 388848 12000 ?        Sl   12:29   0:01 /usr/bin/ibus-daemon --panel disable
+coolbola    1647  0.0  0.6 451084 25732 ?        Ssl  12:29   0:00 /usr/libexec/gsd-color
+coolbola    1649  0.0  0.4 375460 16384 ?        Ssl  12:29   0:00 /usr/libexec/gsd-datetime
+coolbola    1652  0.0  0.2 311928  8064 ?        Ssl  12:29   0:00 /usr/libexec/gsd-housekeeping
+coolbola    1653  0.0  0.5 340588 22532 ?        Ssl  12:29   0:00 /usr/libexec/gsd-keyboard
+coolbola    1663  0.0  0.6 716732 27268 ?        Ssl  12:29   0:00 /usr/libexec/gsd-media-keys
+coolbola    1664  0.0  0.6 450568 25988 ?        Ssl  12:29   0:00 /usr/libexec/gsd-power
+coolbola    1665  0.0  0.2 249852 11392 ?        Ssl  12:29   0:00 /usr/libexec/gsd-print-notifications
+coolbola    1667  0.0  0.1 457856  6912 ?        Ssl  12:29   0:00 /usr/libexec/gsd-rfkill
+coolbola    1668  0.0  0.1 236288  6400 ?        Ssl  12:29   0:00 /usr/libexec/gsd-screensaver-proxy
+coolbola    1671  0.0  0.2 465800 10624 ?        Ssl  12:29   0:00 /usr/libexec/gsd-sharing
+coolbola    1675  0.0  0.2 459764  8448 ?        Ssl  12:29   0:00 /usr/libexec/gsd-smartcard
+coolbola    1676  0.0  0.2 319336  9728 ?        Ssl  12:29   0:00 /usr/libexec/gsd-sound
+coolbola    1680  0.0  0.5 341176 22772 ?        Ssl  12:29   0:00 /usr/libexec/gsd-wacom
+coolbola    1723  0.0  0.3 342360 15232 ?        Sl   12:29   0:00 /usr/libexec/gsd-printer
+coolbola    1724  0.1  1.6 814908 66436 ?        Sl   12:29   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+coolbola    1731  0.0  0.1 237304  7424 ?        Sl   12:29   0:00 /usr/libexec/ibus-dconf
+coolbola    1732  0.7  0.7 347816 29452 ?        Sl   12:29   0:03 /usr/libexec/ibus-extension-gtk3
+coolbola    1744  0.0  0.1 232264  7552 ?        Sl   12:29   0:00 /usr/libexec/gsd-disk-utility-notify
+coolbola    1750  0.0  0.1 237260  7552 ?        Sl   12:29   0:00 /usr/libexec/ibus-portal
+coolbola    1811  0.0  0.1 163480  7552 ?        Sl   12:29   0:00 /usr/libexec/ibus-engine-simple
+coolbola    1834  0.0  0.6 344464 25860 ?        Ssl  12:29   0:00 /usr/libexec/xdg-desktop-portal-gtk
+coolbola    1858  0.0  0.6 2599508 27916 ?       Sl   12:29   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+coolbola    1878  0.4  1.5 2795376 61188 ?       Sl   12:29   0:02 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 0 -D 0:0:1280:800:1:27:0:70:0:0
+coolbola    2009  0.9  2.0 221636 80872 ?        S    12:29   0:04 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.8CY8A2 -listen 4 -listen 5 -displayfd 6 -initfd 7
+coolbola    2018  0.1  2.0 528836 81332 ?        Ssl  12:29   0:00 /usr/libexec/gsd-xsettings
+coolbola    2044  0.0  0.6 194216 25248 ?        Sl   12:29   0:00 /usr/libexec/ibus-x11
+coolbola    2147  0.0  0.6 418356 25476 ?        Sl   12:30   0:00 update-notifier
+coolbola    2190  0.0  0.2 281704 11776 ?        Sl   12:30   0:00 /usr/libexec/gvfsd-http --spawner :1.2 /org/gtk/gvfs/exec_spaw/1
+coolbola    2404  0.0  0.4 1163032 18688 ?       Sl   12:30   0:00 /usr/bin/snap userd
+coolbola    2687 12.4 10.4 12090596 419504 ?     Sl   12:31   0:41 /snap/firefox/2987/usr/lib/firefox/firefox
+coolbola    2821  0.0  0.9 210888 37760 ?        Sl   12:31   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -prefsLen 27750 -prefMapSize 232816 -appDir /snap/firefox/2987/usr/lib/firefox/browser {e82fdb91-0429-4c8e-81d7-04f2f5d0906e} 2687 true socket
+coolbola    2847  0.4  2.7 2438796 108164 ?      Sl   12:31   0:01 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 27826 -prefMapSize 232816 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {9e98b06e-7c61-4218-8d53-d353f19f9136} 2687 true tab
+coolbola    2933  0.2  2.0 2422200 82916 ?       Sl   12:31   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 33427 -prefMapSize 232816 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {02731ce8-2ec2-4e88-9f08-3f88f88a9265} 2687 true tab
+coolbola    3091  0.0  1.1 331892 44416 ?        Sl   12:31   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -sandboxingKind 0 -prefsLen 33585 -prefMapSize 232816 -appDir /snap/firefox/2987/usr/lib/firefox/browser {58b6121a-d46d-4a8a-9fa0-8f2d813f971e} 2687 true utility
+coolbola    3102  8.6  8.0 2829388 323452 ?      Sl   12:31   0:28 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 29024 -prefMapSize 232816 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {8c673580-9d03-4924-be7f-2ca0c8255f69} 2687 true tab
+coolbola    3110  0.1  1.9 2402012 77480 ?       Sl   12:31   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 29024 -prefMapSize 232816 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {5690e9c4-1585-40cb-82e6-a1d337871d41} 2687 true tab
+coolbola    3174  0.1  1.9 2402008 77716 ?       Sl   12:32   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 29209 -prefMapSize 232816 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {28aa1811-cae9-4107-916f-6c048bf903db} 2687 true tab
+coolbola    3195  0.2  1.4 358500 56536 ?        Sl   12:32   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -parentBuildID 20230807082803 -prefsLen 33770 -prefMapSize 232816 -appDir /snap/firefox/2987/usr/lib/firefox/browser {83c27e84-6a7b-490a-ac00-9d87bbd4c7e5} 2687 true rdd
+coolbola    3203  0.1  1.8 2402012 75972 ?       Sl   12:32   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 7 -isForBrowser -prefsLen 29209 -prefMapSize 232816 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {d6260205-a052-4fe8-b7e8-56cb80f1305c} 2687 true tab
+coolbola    3248  0.4  2.3 2434096 95256 ?       Sl   12:32   0:01 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 8 -isForBrowser -prefsLen 29209 -prefMapSize 232816 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {8254fce2-2478-4fda-b1c3-bab2b0fb71b0} 2687 true tab
+coolbola    3251  0.1  2.0 2404024 82112 ?       Sl   12:32   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 9 -isForBrowser -prefsLen 29209 -prefMapSize 232816 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {954e9761-7900-4c44-97a0-fca7fceb768a} 2687 true tab
+coolbola    3255  0.0  1.8 2400988 74440 ?       Sl   12:32   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 10 -isForBrowser -prefsLen 29209 -prefMapSize 232816 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {b763aed4-0663-466e-9c03-78f0746c8900} 2687 true tab
+coolbola    3356  0.0  1.4 2395172 59928 ?       Sl   12:32   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 13 -isForBrowser -prefsLen 29209 -prefMapSize 232816 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {bd0b7dc4-2d99-45fb-b3fb-8d141a512f32} 2687 true tab
+coolbola    3387  0.0  1.5 2395188 60184 ?       Sl   12:32   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 14 -isForBrowser -prefsLen 29209 -prefMapSize 232816 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {92fedee3-d398-439d-b872-5d8444e95dc3} 2687 true tab
+coolbola    3390  0.0  1.4 2395192 59528 ?       Sl   12:32   0:00 /snap/firefox/2987/usr/lib/firefox/firefox -contentproc -childID 15 -isForBrowser -prefsLen 29209 -prefMapSize 232816 -jsInitLen 242416 -parentBuildID 20230807082803 -appDir /snap/firefox/2987/usr/lib/firefox/browser {ef5da852-2715-4a0c-8980-4dcf2d09dddb} 2687 true tab
+coolbola    3449  0.3  1.4 887880 59464 ?        Sl   12:33   0:00 /usr/bin/gnome-calendar --gapplication-service
+coolbola    3450  1.8  1.3 562588 52276 ?        Ssl  12:33   0:04 /usr/libexec/gnome-terminal-server
+coolbola    3451  0.3  0.9 393220 39888 ?        SLl  12:33   0:00 /usr/bin/seahorse --gapplication-service
+coolbola    3553  0.0  0.1  11012  5120 pts/0    Ss   12:33   0:00 bash
+root        3662  0.0  0.0      0     0 ?        I    12:34   0:00 [kworker/u4:1-ext4-rsv-conversion]
+root        3663  0.0  0.0      0     0 ?        I    12:34   0:00 [kworker/u4:4-flush-8:0]
+root        3664  0.0  0.0      0     0 ?        I    12:34   0:00 [kworker/u4:6-ext4-rsv-conversion]
+root        3675  0.0  0.0      0     0 ?        I    12:34   0:00 [kworker/1:0-cgroup_destroy]
+coolbola    3689  0.0  0.0  12672  3328 pts/0    R+   12:37   0:00 ps aux
